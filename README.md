@@ -1,2 +1,2 @@
-# clipboard
+# Clipboard
 Frontend Mentor Challenge
