@@ -10,23 +10,32 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
+  line-height: 1.5;
+  margin: auto 3rem;
 }
 
 h3 {
   font-weight: 600;
+  margin: 5% 0 0;
+  text-align: center;
+}
+
+h1, h2, h3{
+  color: hsl(210, 10%, 33%);
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
   p {
     text-align: center;
     color: hsl(201, 11%, 66%);
-  }
-
-  .background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+    margin: 0;
   }
 
   header {
@@ -36,26 +45,38 @@ h3 {
     justify-content: center;
   }
 
+  header p {
+    margin: 5% 0;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+
   .logo {
     margin-top: 20%;
   }
 
   .button {
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     color: #fff;
     display: flex;
-    filter: drop-shadow(3px 2px 4px black);
+    font-weight: 600;
+    font-size: 16px;
     margin: 10px 0;
-    padding: 13px 50px;
+    padding: 20px 100px;
   }
 
   .ios {
     background-color: hsl(171, 66%, 44%);
+    filter: drop-shadow(3px 2px 4px hsl(171, 66%, 44%));
   }
 
   .android {
     background-color: hsl(233, 100%, 69%);
+    filter: drop-shadow(3px 2px 4px hsl(233, 100%, 69%));
   }
 
   .card {
@@ -68,5 +89,16 @@ h3 {
   .image {
     width: 60%;
   }
+
+  .tracking {
+    margin: 10px 0 0 0;
+  }
+
+  .first-container {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (min-width(1200px)) {
 
 }
