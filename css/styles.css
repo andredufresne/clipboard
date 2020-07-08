@@ -31,11 +31,20 @@ h1, h2, h3{
   width: 100%;
 }
 
+.first-container {
+  margin-top: 15%;
+}
+
+.card {
+  margin: 25px 0;
+}
+
 @media only screen and (max-width: 768px) {
   p {
-    text-align: center;
     color: hsl(201, 11%, 66%);
-    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 7px;
   }
 
   header {
@@ -43,10 +52,6 @@ h1, h2, h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-
-  header p {
-    margin: 5% 0;
   }
 
   h1, h2 {
@@ -94,13 +99,21 @@ h1, h2, h3{
     margin: 10px 0 0 0;
   }
 
-  .first-container {
-    margin-top: 20%;
+  .list-reasons img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
+
+  .testimonial {
+    margin: 8rem 0;
+  }
+
+  .testimonial img {
+    margin-bottom: 25%;
+  }
+
 }
 
 @media screen and (min-width(1200px)) {
 
 }
-
-@media screen and (min-width(1200px)) {}
